@@ -2,6 +2,13 @@ h1 {
     color: #FF0000;
 }
 
-p {
-    font-style: italic;
+#slogan{
+ 
+  font-style: italic;
+
+}
+
+.expertise{
+
+	color: purple;
 }
