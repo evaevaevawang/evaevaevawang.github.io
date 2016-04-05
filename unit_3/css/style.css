@@ -1,7 +1,14 @@
-h1 {
-    color: #FFD700;
+h1{
+   
+   color:orange;
 }
 
+p {
+    font-family: arial, serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
 
 .center{
 	 text-align: center;
