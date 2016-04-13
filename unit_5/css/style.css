@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+h1 {
+    color: #FFD700;
+    font-family: 'Raleway',cursive;
+    font-size: 60px;
+}
+
+p {
+    font-family: arial, serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
+.center{
+	 text-align: center;
+}
+
+#slogan{
+ 
+  font-weight: bold;
+}
+
+#about{
+    background-color: blue;
+}
+
+#services{
+    background-color:rgb(176,176,176);
+}
+
+
+
+
+/*#centerimage{
+
+	 display: block;
+	 margin: 0 auto;
+}
+
+#centerlist{
+
+    margin:0 auto;
+    width: 250px;
+}*/
+
+
+
+
+
