@@ -49,25 +49,13 @@ a:hover{
     background: grey;
 }
 
-.clearfix:after{
-    visibility: :hidden;
-    display:block;
-    content: "";
-    clear:both;
-    height: 0;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
     font-size: 0;
-}
-
-aside {
-    background-color: #FFC675;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-article {
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 footer {
