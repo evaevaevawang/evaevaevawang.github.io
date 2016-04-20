@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-
+* { margin:0;padding:0;box-sizing:border-box; }
 h1 {
     color: #FFD700;
     font-family: 'Raleway',cursive;
@@ -21,6 +21,7 @@ p {
  
   font-weight: bold;
 }
+
 
 
 header {
@@ -80,7 +81,33 @@ div{
     border: 1px black solid;
     padding: 20px;
 }
+img {
+    float:left;
+    padding:.5em;
+    width:25%;
+}
 
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
 
 
 
