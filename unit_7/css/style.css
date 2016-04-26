@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+* { margin:0;padding:0;box-sizing:border-box; }
+
+h1 {
+    color: black;
+    font-family: 'Raleway',cursive;
+    font-size: 60px;
+}
+
+p {
+    font-family: arial, serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
+.center{
+	 text-align: center;
+}
+
+#slogan{
+ 
+  font-weight: bold;
+}
+
+
+
+header {
+    background-color: purple;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #F0BBEF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+a{
+    background-color: #EE82EE;
+    color: black;
+    text-decoration: none;
+    display: block;
+    float: right;
+    padding: 20px;
+}
+
+a:hover{
+    background: grey;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+    background-color: purple;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div{
+    background-color:  #F0BBEF;
+    border: 1px black solid;
+    padding: 20px;
+}
+img {
+    float:left;
+    padding:.5em;
+    width:25%;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+
+
+/*#about{
+    background-color: blue;
+}
+
+#services{
+    background-color:rgb(176,176,176);
+}*/
+
+
+#wrapper{
+
+    height:100vh;
+    width:100vw;
+    background-image: url(../images/flower.jpg);
+    background-size: cover;
+}
+
+
+
+/*#centerimage{
+
+	 display: block;
+	 margin: 0 auto;
+}
+
+#centerlist{
+
+    margin:0 auto;
+    width: 250px;
+}*/
+
+
+
+
+
