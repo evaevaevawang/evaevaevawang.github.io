@@ -82,12 +82,13 @@ img {
     padding: 20px;
 }
 
-#left {
+.left {
     background-color: #E582A2;
     border: 1px black solid;
     padding: 20px;
     float: left;
     width: 20%;
+    min-height: 170px;
 }
 
 #right {
