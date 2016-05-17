@@ -8,10 +8,21 @@ h1 {
 }
 
 p {
-    color:white;
+    color:black;
     font-family: arial, serif;
 	font-size: 18px;
 	line-height: 1.5em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+}
+
+a:hover{
+    background: grey;
 }
 
 body{
@@ -35,22 +46,9 @@ header {
 }
 
 nav {
-    background: rgba(0,0,0,0.20);
     padding: 10px;
 }
 
-a{
-/*    background-color: #EE82EE;*/
-    color: white;
-    text-decoration: none;
-    display: block;
-    float: right;
-    padding: 20px;
-}
-
-a:hover{
-    background: grey;
-}
 
 .clearfix:after {
     visibility: hidden;
@@ -69,6 +67,7 @@ footer {
 div{
 /*    background-color:  #F0BBEF;*/
     padding: 20px;
+
 }
 img {
     float:left;
@@ -84,10 +83,15 @@ img {
 .left {
 /*    background-color: #E582A2;*/
     padding: 20px;
+    display:block;
     float: left;
     width: 20%;
     min-height:96px;
 }
+.left a{
+font-size:20px;
+}
+
 
 #right {
     background-color: #E55B88;
@@ -116,9 +120,26 @@ img {
 }
 
 #indexcoverimage{
-    height:100vh;
+/*    height:100vh;
     width:100vw;
     background-image: url(../images/me.jpg);
+    background-size: cover;
+    display: block;*/
+    position: relative;
+
+}
+
+#indexcoverimage::after{
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/me.jpg); 
+    width: 100%;
+    height: 100%;
+    opacity : 0.7;
+    z-index: -1;
     background-size: cover;
 }
 
@@ -137,18 +158,45 @@ img {
 }*/
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 530px){
 
-  .left {
-    float: none;
-    font-size:0.5em;
+  .left{
+    float:none;
+    display:block;
     width:100%;
-    min-height: 0px;
-    padding:1em;
-    font-size: 2em;
-    float:center;
-    font-size: 0.1em;
+    margin: 0;
+    padding: 0;
   }
+
+  .left a{
+
+    font-size:1em;
+    width:100%;
+    margin: 0 1em;
+    border: 1px solid black;
+    min-height:0px;
+/*    float:none;
+    width:100%;
+    display:inline-block;
+    text-align: center; 
+    margin: 0 1em 1em;*/
+
+  }
+
+  a:hover{
+    background: grey;
+    margin: 0.4em;
+}
+
+/*    .left a{
+    padding: 20px;
+    float: left;
+    width: 20%;
+    min-height:96px;
+    font-size:20px;
+	float:left;
+	display: block;
+  }*/
 
   nav{
      float:center;
