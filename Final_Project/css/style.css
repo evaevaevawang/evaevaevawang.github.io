@@ -5,6 +5,7 @@ h1 {
     color: black;
     font-family: 'Raleway',cursive;
     font-size: 60px;
+    float:left;
 }
 
 h2,h3,h4{
@@ -16,12 +17,15 @@ p {
     font-family: arial, serif;
 	font-size: 18px;
 	line-height: 1.5em;
+    padding:20px;
+    margin: 20px;
+    display:inline-block;
 }
 
 a{
     color: black;
+    float:left;
     text-decoration: none;
-    float: right;
     padding: 20px;
 }
 
@@ -32,10 +36,6 @@ a:hover{
 body{
 
     color:black;
-}
-
-.center{
-	 text-align: center;
 }
 
 #slogan{
@@ -51,6 +51,7 @@ header {
 
 nav {
     padding: 10px;
+    float:right;
 }
 
 
@@ -135,7 +136,7 @@ font-size:20px;
 #indexcoverimage::after{
     content : "";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-image: url(../images/me.jpg); 
@@ -204,15 +205,21 @@ font-size:20px;
   nav{
      float:center;
   }
-}
 
-/*  @media only screen and (max-width: 847px){
+  section{
+    display:inline-block;
+  }  
 
-   h1{
-     font-color:white;
+
+@media only screen and (max-width: 465px){
+
+   nav a {
+        float:none;
+        display:inline-block;
+        padding: 0px;
    }
 
-  }*/
+  }
 
 
 
